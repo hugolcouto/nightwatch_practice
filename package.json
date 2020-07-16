@@ -1,0 +1,14 @@
+{
+  "name": "nightwatch_practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "nightwatch": "nightwatch",
+    "debug:nightwatch": "node --inspect-brk node_modules/.bin/nightwatch"
+  },
+  "devDependencies": {
+    "chromedriver": "^83.0.1",
+    "nightwatch": "^1.3.6"
+  }
+}
