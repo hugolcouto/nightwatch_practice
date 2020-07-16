@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "nightwatch": "nightwatch",
+    "test": "nightwatch",
     "debug:nightwatch": "node --inspect-brk node_modules/.bin/nightwatch"
   },
   "devDependencies": {
